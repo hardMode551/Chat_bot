@@ -1,0 +1,156 @@
+.targetContainer {
+  position: absolute;
+  top: 490px;
+  right: -305px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  z-index: -1;
+
+  @media screen and (min-width: 1800px) {
+    top: 490px;
+    right: -205px;
+  }
+
+  @media screen and (max-width: 550px) {
+    top: 290px;
+    right: -105px;
+  }
+
+  .target {
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+    .circle {
+      position: absolute;
+
+      width: 500px;
+      height: 482px;
+
+      border-radius: 100%;
+
+      border: 1px solid #fff;
+
+      opacity: 0.4;
+
+      @media screen and (max-width: 550px) {
+        width: 200px;
+        height: 182px;
+      }
+
+      &:nth-child(2) {
+        width: 531px;
+        height: 512px;
+
+        opacity: 0.1;
+
+        @media screen and (max-width: 550px) {
+          width: 231px;
+          height: 212px;
+        }
+      }
+
+      &:nth-child(3) {
+        width: 747px;
+        height: 719px;
+
+        opacity: 0.4;
+
+        @media screen and (max-width: 550px) {
+          width: 447px;
+          height: 419px;
+        }
+      }
+
+      &:nth-child(4) {
+        width: 794px;
+        height: 764px;
+
+        opacity: 0.1;
+
+        @media screen and (max-width: 550px) {
+          width: 494px;
+          height: 464px;
+        }
+      }
+
+      &:nth-child(5) {
+        width: 1006px;
+        height: 969px;
+
+        opacity: 0.4;
+
+        @media screen and (max-width: 550px) {
+          width: 706px;
+          height: 669px;
+        }
+      }
+
+      &:nth-child(6) {
+        width: 1128px;
+        height: 1086px;
+
+        opacity: 0.4;
+
+        @media screen and (max-width: 550px) {
+          width: 828px;
+          height: 786px;
+        }
+      }
+
+      &:nth-child(7) {
+        width: 1069px;
+        height: 1030px;
+
+        opacity: 0.1;
+
+        @media screen and (max-width: 550px) {
+          width: 769px;
+          height: 730px;
+        }
+      }
+
+      &:nth-child(8) {
+        width: 1201px;
+        height: 1156px;
+
+        opacity: 0.1;
+
+        @media screen and (max-width: 550px) {
+          width: 901px;
+          height: 856px;
+        }
+      }
+
+      &:nth-child(9) {
+        width: 1345px;
+        height: 1295px;
+
+        opacity: 0.4;
+
+        @media screen and (max-width: 550px) {
+          width: 1045px;
+          height: 995px;
+        }
+      }
+
+      &:nth-child(10) {
+        width: 1431px;
+        height: 1378px;
+
+        opacity: 0.1;
+
+        @media screen and (max-width: 550px) {
+          display: none;
+        }
+      }
+    }
+  }
+}

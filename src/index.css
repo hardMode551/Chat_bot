@@ -1,0 +1,65 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display?styles=98774,98777,98776,98772,98773,98775,98770,98771,98769');
+
+:root {
+  font-family: 'SF Pro Display', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgb(255, 255, 255);
+  background: linear-gradient(180deg, #228be6 0%, #0a3f8e 100%);
+  backdrop-filter: blur(307.5px);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  
+  display: flex;
+  place-items: center;
+
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.App h1 {
+  margin: 0;
+  padding: 0;
+  
+  font-size: 57.695px;
+  font-weight: 700;
+  line-height: 89px;
+  text-transform: capitalize;
+}
+
+.App {
+  position: relative;
+}
+
+.title p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px; 
+
+  @media screen and (max-width: 550px) {
+    font-size: 12px;
+  }
+}
+
+.title h1 {
+  margin: 0;
+  padding: 0;
+
+  font-size: 62px;
+
+  @media screen and (max-width: 550px) {
+    font-size: 32px;
+    line-height: 38px; 
+  }
+}

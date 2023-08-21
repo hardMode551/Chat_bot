@@ -1,0 +1,57 @@
+.input-form {
+  display: flex;
+  align-items: center;
+
+  padding: 10px;
+  margin: 20px 0 0 0;
+
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 2px 31px 13px rgba(10, 63, 142, 0.08);
+
+  @media screen and (max-width: 550px) {
+    height: 30px;
+  }
+
+  input {
+    flex: 1;
+
+    padding: 8px;
+
+    border: none;
+    border-radius: 4px;
+
+    font-size: 20px;
+    font-weight: 500;
+
+    outline: none;
+
+    @media screen and (min-width: 1800px) {
+      font-size: 22px;
+    }
+
+    @media screen and (max-width: 550px) {
+      font-size: 12px;
+    }
+  }
+
+  button {
+    border: none;
+    border-radius: 100%;
+
+    background-color: #fff;
+
+    cursor: pointer;
+
+    @media screen and (max-width: 550px) {
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+
+  .disabled {
+    opacity: 0.5;
+  }
+}
