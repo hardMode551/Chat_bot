@@ -81,7 +81,7 @@ const Chat: React.FC = () => {
     setBotType(true);
 
     try {
-      const response = await fetch('https://185.46.8.130/api/v1/chat/send-message', {
+      const response = await fetch('http://185.46.8.130/api/v1/chat/send-message', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
